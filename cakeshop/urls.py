@@ -23,7 +23,8 @@ urlpatterns = [
     path('', include('home.urls', namespace="home")),
     path('', include('about.urls', namespace="about")),
     path('', include('menu.urls', namespace="menu")),
-    path('', include('contact.urls', namespace="conact"))
+    path('', include('contact.urls', namespace="conact")),
+    path('', include('master_chefs.urls', namespace="master_chefs")),
 ]
 if settings.DEBUG:         
     urlpatterns += static(settings.MEDIA_URL,document_root=settings.MEDIA_ROOT)

@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     'about',
     'menu',
     'contact',
+    'master_chefs',
 ]
 
 MIDDLEWARE = [
